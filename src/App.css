@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main{
+  height: 85vh;
+  width: 85vw;
+  background: white;
+  box-shadow: 5px 5px 10px gray;
+  margin-top: 8vh;
+  margin-left: 8vw;
+  padding-top: 4vh;
+  padding-left: 3vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.demo{
+  height: 79vh;
+  width: 78vw;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.demo label{
+ margin-left: 22px;
+}
+
+.demo select{
+  height: 5vh;
+  width: 75vw;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-left: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.demo textarea{
+  height: 22vh;
+  width: 75vw;
+  margin-left: 22px;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#myTextarea2{
+  background: lightgray;
+}
+
+button{
+  margin-left: 22px;
+  margin-top: 8px;
+  background: rgb(69, 69, 207);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
 }
